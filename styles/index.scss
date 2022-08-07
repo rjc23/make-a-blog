@@ -1,0 +1,30 @@
+@import './../components/Nav/Nav.scss';
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 6px;
+}
+
+.card {
+    padding: 12px;
+    box-shadow: 1px 1px 5px 2px rgba(82, 82, 82, 0.53);
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.app_wrapper {
+    max-width: 700px;
+    margin: auto;
+}
